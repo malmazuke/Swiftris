@@ -23,6 +23,7 @@
 		9B1152C619E7582200728CC1 /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1152C519E7582200728CC1 /* JShape.swift */; };
 		9B1152C819E7583900728CC1 /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1152C719E7583900728CC1 /* SShape.swift */; };
 		9B1152CA19E7584500728CC1 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1152C919E7584500728CC1 /* ZShape.swift */; };
+		9B1152CD19E75C1100728CC1 /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1152CC19E75C1100728CC1 /* Swiftris.swift */; };
 		9B8A281519E525B200FB3851 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A281419E525B200FB3851 /* AppDelegate.swift */; };
 		9B8A281919E525B200FB3851 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A281819E525B200FB3851 /* GameScene.swift */; };
 		9B8A281B19E525B200FB3851 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A281A19E525B200FB3851 /* GameViewController.swift */; };
@@ -65,6 +66,7 @@
 		9B1152C519E7582200728CC1 /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
 		9B1152C719E7583900728CC1 /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
 		9B1152C919E7584500728CC1 /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		9B1152CC19E75C1100728CC1 /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 		9B8A280F19E525B200FB3851 /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B8A281319E525B200FB3851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B8A281419E525B200FB3851 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				9B8A281819E525B200FB3851 /* GameScene.swift */,
 				9B8A281A19E525B200FB3851 /* GameViewController.swift */,
 				9B1152CB19E758BE00728CC1 /* Shapes */,
+				9B1152CC19E75C1100728CC1 /* Swiftris.swift */,
 				9B8A281C19E525B200FB3851 /* Main.storyboard */,
 				9B8A281F19E525B200FB3851 /* Images.xcassets */,
 				9B8A282119E525B200FB3851 /* LaunchScreen.xib */,
@@ -313,6 +316,7 @@
 				9B1152BE19E68CFB00728CC1 /* SquareShape.swift in Sources */,
 				9B8A281919E525B200FB3851 /* GameScene.swift in Sources */,
 				9B1152C619E7582200728CC1 /* JShape.swift in Sources */,
+				9B1152CD19E75C1100728CC1 /* Swiftris.swift in Sources */,
 				9B1152BC19E67F0800728CC1 /* Shape.swift in Sources */,
 				9B1152B819E6724F00728CC1 /* Array2D.swift in Sources */,
 				9B1152C219E756CC00728CC1 /* LineShape.swift in Sources */,
