@@ -38,6 +38,4 @@ class Swiftris {
         fallingShape?.moveTo(StartingColumn, row: StartingRow)
         return (fallingShape, nextShape)
     }
-    
-    
 }

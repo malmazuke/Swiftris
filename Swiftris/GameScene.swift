@@ -71,7 +71,7 @@ class GameScene: SKScene {
     
     func pointForColumn(column: Int, row: Int) -> CGPoint {
         let x: CGFloat = LayerPosition.x + ((CGFloat(column) * BlockSize) + (BlockSize / 2))
-        let y: CGFloat = LayerPosition.y + ((CGFloat(row) * BlockSize) + (BlockSize / 2))
+        let y: CGFloat = LayerPosition.y - ((CGFloat(row) * BlockSize) + (BlockSize / 2))
         return CGPointMake(x, y)
     }
     
@@ -84,7 +84,7 @@ class GameScene: SKScene {
             }
             let sprite = SKSpriteNode(texture: texture)
             
-            sprite.position = pointForColumn(block.column, row: block.row - 2)
+            sprite.position = pointForColumn(block.column, row:block.row - 2)
             shapeLayer.addChild(sprite)
             block.sprite = sprite
             
@@ -92,7 +92,7 @@ class GameScene: SKScene {
             sprite.alpha = 0
             
             let moveAction = SKAction.moveTo(pointForColumn(block.column, row: block.row), duration: NSTimeInterval(0.2))
-            moveAction.timingMode = SKActionTimingMode.EaseOut
+            moveAction.timingMode = .EaseOut
             let fadeInAction = SKAction.fadeAlphaTo(0.7, duration: 0.4)
             fadeInAction.timingMode = .EaseOut
             sprite.runAction(SKAction.group([moveAction, fadeInAction]))
