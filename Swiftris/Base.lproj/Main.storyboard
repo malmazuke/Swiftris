@@ -37,7 +37,7 @@
                         <outlet property="delegate" destination="LVB-YS-i5n" id="mPk-4q-8b0"/>
                     </connections>
                 </panGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="Oj4-Tf-E7n">
+                <swipeGestureRecognizer direction="down" id="Oj4-Tf-E7n">
                     <connections>
                         <action selector="didSwipe:" destination="LVB-YS-i5n" id="vVc-4B-JkZ"/>
                         <outlet property="delegate" destination="LVB-YS-i5n" id="gyv-ip-3fn"/>
